@@ -3,7 +3,7 @@
 The **Node.js / Express 5 / MongoDB** REST API for Spendwise, a personal finance app.
 The React Native (Expo) client lives in **[expense-tracker-frontend](https://github.com/mhdnihaal1/expense-tracker-frontend)**.
 
-**Live API:** https://expense-tracker-backend.onrender.com/api (hosted on Render) · **Web app:** https://expense-tracker-frontend-beryl-psi.vercel.app
+**Live API:** https://expense-tracker-backend-it81.onrender.com/api (hosted on Render) · **Web app:** https://expense-tracker-frontend-beryl-psi.vercel.app
 
 ## Features
 
