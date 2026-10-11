@@ -3,6 +3,8 @@
 The **Node.js / Express 5 / MongoDB** REST API for Spendwise, a personal finance app.
 The React Native (Expo) client lives in **[expense-tracker-frontend](https://github.com/mhdnihaal1/expense-tracker-frontend)**.
 
+**Live API:** https://expense-tracker-backend.onrender.com/api (hosted on Render) · **Web app:** https://expense-tracker-frontend-beryl-psi.vercel.app
+
 ## Features
 
 - JWT auth with bcrypt-hashed passwords. Registering seeds 19 default categories and a Cash account.
@@ -43,6 +45,7 @@ npm run dev                     # http://localhost:4000/api
 | `MONGODB_URI` | `mongodb://localhost:27017/expense_tracker` |
 | `JWT_SECRET` | Required. Use a long random string |
 | `JWT_EXPIRES_IN` | `30d` |
+| `CORS_ORIGINS` | `https://expense-tracker-frontend-beryl-psi.vercel.app`. Comma-separated web origins allowed to call the API. Vercel previews and localhost/LAN dev origins are always allowed |
 
 ## Project structure
 
